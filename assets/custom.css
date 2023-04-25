@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* Nightly theme for Homer */
+
+#app.theme-default.is-dark {
+    --nightly-background: #141D2C;
+    --nightly-current-line: #1A2333;
+    --nightly-primary-line: #141D2C;
+    --nightly-foreground: #f8f8f2;
+    --nightly-comment: #6272a4;
+    --nightly-cyan: #A5B2CD;
+    --nightly-green: #7aff9b;
+    --nightly-orange: #ffb86c;
+    --nightly-darkCyan: #019d86;
+    --nightly-purple: #bd93f9;
+    --nightly-red: #ff5555;
+    --nightly-yellow: #f4ff7e;
+
+    --highlight-primary: var(--nightly-primary-line);
+    --highlight-secondary: var(--nightly-current-line);
+    --highlight-hover: var(--nightly-current-line);
+    --background: var(--nightly-background);
+    --highlight-hover: var(--nightly-current-line);
+    --card-background: var(--nightly-current-line);
+    --text: var(--nightly-foreground);
+    --text-header: var(--nightly-foreground);
+    --text-title: var(--nightly-foreground);
+    --text-subtitle: var(--nightly-cyan);
+    --link: var(--nightly-green);
+    --link-hover: var(--nightly-green);
+}
+
+/* Header */
+
+h2.group-title {
+    font-size: 1.3rem;
+}
+
+#app.theme-default.is-dark .logo {
+    color: var(--nightly-purple);
+}
+
+#app.theme-default.is-dark .first-line .headline {
+    color: var(--nightly-yellow);
+}
+
+#app.theme-default.is-dark .navbar-start i {
+    color: var(--nightly-foreground);
+}
+
+#app.theme-default.is-dark [title="Auto-switch"] {
+    color: var(--nightly-purple);
+}
+
+#app.theme-default.is-dark [title="Dark theme"] {
+    color: var(--nightly-orange);
+}
+
+#app.theme-default.is-dark .navbar-item .fa-columns {
+    color: var(--nightly-green);
+}
+
+#app.theme-default.is-dark .navbar-item .fa-list {
+    color: var(--nightly-cyan);
+}
+
+#app.theme-default.is-dark .search-bar .search-label:before {
+    color: var(--nightly-yellow);
+}
+
+#app.theme-default.is-dark .search-bar input {
+    background-color: var(--nightly-background);
+}
+
+#app.theme-default.is-dark .search-bar>input:nth-child(2) {
+    color: var(--nightly-foreground);
+}
+
+#app.theme-default.is-dark .search-bar input:focus-visible {
+    outline: none;
+}
+
+/* Message */
+
+#app.theme-default.is-dark .message-header {
+    color: var(--nightly-foreground);
+    background-color: var(--nightly-current-line);
+    border-style: none none solid none;
+    border-width: thin;
+}
+
+#app.theme-default.is-dark .is-info .message-header {
+    border-color: var(--nightly-cyan);
+}
+
+#app.theme-default.is-dark .is-info .message-header i {
+    color: var(--nightly-cyan);
+}
+
+#app.theme-default.is-dark .is-success .message-header {
+    border-color: var(--nightly-green);
+}
+
+#app.theme-default.is-dark .is-success .message-header i {
+    color: var(--nightly-green);
+}
+
+#app.theme-default.is-dark .is-warning .message-header {
+    border-color: var(--nightly-orange);
+}
+
+#app.theme-default.is-dark .is-warning .message-header i {
+    color: var(--nightly-orange);
+}
+
+#app.theme-default.is-dark .is-danger .message-header {
+    border-color: var(--nightly-red);
+}
+
+#app.theme-default.is-dark .is-danger .message-header i {
+    color: var(--nightly-red);
+}
+
+/* Cards */
+
+#app.theme-default.is-dark .tag {
+    background-color: var(--nightly-darkCyan);
+    color: var(--nightly-foreground);
+}
+
+#app.theme-default.is-dark .status.unknown::before {
+    background-color: var(--nightly-yellow);
+    border-color: var(--nightly-yellow);
+    box-shadow: 0 0 5px 1px var(--nightly-yellow);
+}
+
+#app.theme-default.is-dark .status.bad::before {
+    background-color: var(--nightly-red);
+    border-color: var(--nightly-red);
+    box-shadow: 0 0 5px 1px var(--nightly-red);
+}
+
+#app.theme-default.is-dark .status.running::before {
+    background-color: var(--nightly-green);
+    border-color: var(--nightly-green);
+    box-shadow: 0 0 5px 1px var(--nightly-green);
+}
+
+/* Footer */
+
+#app.theme-default.is-dark .footer {
+    color: var(--nightly-foreground);
+}
