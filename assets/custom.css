@@ -7,7 +7,6 @@
     --nightly-current-line: #1A2333;
     --nightly-primary-line: #141D2C;
     --nightly-foreground: #f8f8f2;
-    --nightly-comment: #6272a4;
     --nightly-cyan: #A5B2CD;
     --nightly-green: #7aff9b;
     --nightly-orange: #ffb86c;
@@ -29,8 +28,6 @@
     --link: var(--nightly-green);
     --link-hover: var(--nightly-green);
 }
-
-/* Header */
 
 h2.group-title {
     font-size: 1.3rem;
